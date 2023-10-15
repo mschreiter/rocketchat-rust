@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-use model::integration_type::IntegrationType;
+use crate::model::integration_type::IntegrationType;
 
 #[derive(Default, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

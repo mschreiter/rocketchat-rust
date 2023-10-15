@@ -1,5 +1,5 @@
-#[derive(Debug, PartialEq)]
-enum HttpMethods {
+#[derive(Debug, PartialEq, Clone, Copy)]
+pub enum HttpMethods {
     Get,
     Post,
     Put,

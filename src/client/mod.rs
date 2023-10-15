@@ -8,3 +8,6 @@ pub mod rocket_chat_rest_api_v1_chat;
 pub mod rocket_chat_rest_api_v1_groups;
 pub mod rocket_chat_rest_api_v1_settings;
 pub mod rocket_chat_rest_api_v1_users;
+
+// TESTS
+mod tests;

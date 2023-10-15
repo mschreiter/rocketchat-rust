@@ -1,11 +1,11 @@
 #[cfg(test)]
 mod tests {
-    use model::attachment::Attachment;
-    use model::email::Email;
-    use model::user::User;
-    use model::user_status::UserStatus::ONLINE;
-    use model::user_type::UserType;
-    use utils::json::{json_to_object, object_to_json};
+    use crate::model::attachment::Attachment;
+    use crate::model::email::Email;
+    use crate::model::user::User;
+    use crate::model::user_status::UserStatus::ONLINE;
+    use crate::model::user_type::UserType;
+    use crate::utils::json::{json_to_object, object_to_json};
 
     #[test]
     fn test_object_to_json() {

@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-use model::server_build_info::ServerBuildInfo;
-use model::server_commit_info::ServerCommitInfo;
+use crate::model::server_build_info::ServerBuildInfo;
+use crate::model::server_commit_info::ServerCommitInfo;
 
 #[derive(Default, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

@@ -1,8 +1,8 @@
 use serde::{Deserialize, Serialize};
 
-use model::email::Email;
-use model::user_status::UserStatus;
-use model::user_type::UserType;
+use crate::model::email::Email;
+use crate::model::user_status::UserStatus;
+use crate::model::user_type::UserType;
 
 #[derive(Default, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

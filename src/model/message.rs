@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-use model::attachment::Attachment;
-use model::emoji::Emoji;
+use crate::model::attachment::Attachment;
+use crate::model::emoji::Emoji;
 
 #[derive(Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

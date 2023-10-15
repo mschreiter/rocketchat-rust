@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-use model::room_creator::RoomCreator;
-use model::room_type::RoomType;
+use crate::model::room_creator::RoomCreator;
+use crate::model::room_type::RoomType;
 
 #[derive(Default, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
